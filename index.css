@@ -1,0 +1,75 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.bg-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: roboto;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.small-box {
+  background-color: #fbbf24;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 12px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.medium-box {
+  background-color: #38bdf8;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 12px;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.large-box {
+  background-color: #ec4899;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 12px;
+  height: 240px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+@media (min-width: 768px) {
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
